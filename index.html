@@ -7,7 +7,9 @@
     <title>Um pouquinho da sabedoria</title>
     <link rel="stylesheet" href="style.css">
 
-    <!--Text fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--Text fonts-->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Honk&family=Pacifico&display=swap');
 
@@ -22,35 +24,43 @@
 
 <body>
     <header>
-        <img id="logo" src="logo.jpeg" alt="logo">
-        <h1 id="title">Um Pouquinho da Sabedoria</h1>
+        <div class="header-top">
+        
+            
 
-        <div> <!--Menu de redes sociais-->
+        <!--Menu de redes sociais-->
+        <div class="left-box">
+        <img id="logo" src="logo.jpeg" alt="logo">
+        <div class="socialmedia-box">
             <a class="redes-sociais" id="youtube" href=https://www.youtube.com/@N%C3%A3oseimasvouentender
                 target="_blank">Nãoseimasvouentender</a>
             <a class="redes-sociais" id="instagram"
                 href="https://www.instagram.com/poquinhodesabedoria?utm_source=qr&igsh=bXEzY3JkaXJrMWZzhttps://www.youtube.com/@N%C3%A3oseimasvouentender"
-                target="_blank">@pouquinhodesabedoria</a>
+                target="_blank">@pouquinhodesabedoria</a> 
+        </div>
+        </div>
+        <h1 id="title">Um Pouquinho da Sabedoria</h1>
         </div>
 
         <nav>
             <ul class="menu">
-                <a class="sub-menu" href="informações.html#Sobre" target="_self"> Sobre nós</a>
-                <a class="sub-menu" href="informações.html#História" target="_self"> História</a>
-                <a class="sub-menu" href="informações.html#Visão" target="_self"> Visão</a>
-                <a class="sub-menu" href="informações.html#Valores" target="_self"> Valores</a>
-                <a class="sub-menu" href="informações.html#Equipe" target="_self"> Equipe</a>
+                <li><a class="sub-menu" href="informações.html#Sobre" target="_self"> Sobre nós</a></li>
+                <li><a class="sub-menu" href="informações.html#História" target="_self"> História</a></li>
+                <li><a class="sub-menu" href="informações.html#Visão" target="_self"> Visão</a></li>
+                <li><a class="sub-menu" href="informações.html#Valores" target="_self"> Valores</a></li>
+                <li><a class="sub-menu" href="informações.html#Equipe" target="_self"> Equipe</a></li>
             </ul>
         </nav>
 
     </header>
+    
     <main class="main-content">
         <article>
             <h1 class="titulocomum">Olá, bem vindo ao site Um Pouquinho da Sabedoria! Aqui você encontrará conteúdo
                 gratuito de matemática básica incluindo exercícios e videoaulas!</h1>
                 <img class="desenho1" src="Mídia-Photoroom-removebg-preview.png" alt="">
-            <div id="caixaazul">
-                <h2 class="titulocomum" style="color:rgb(248, 248, 248)">Para quem o nosso conteúdo é destinado</h2>
+            <div class="caixaazul">
+                <h2 class="titulocomum2" style="color:rgb(248, 248, 248)">Para quem o nosso conteúdo é destinado</h2>
                 <div class="cards-box">
                     <div class="card paragrafo-comum">
                         <img class="peopleicon" src="brain.png" alt="brain">
@@ -73,15 +83,16 @@
                 </div>
 
             </div>
-            <h1 class="titulocomum">Aulas</h1>
+            
+            <h1 class="titulocomum2">Aulas</h1>
             <div id="exercise-box">
-                    <a class= "exercise-bottons" href="exercicios1.html">1° ao 4° ano</a>
+                    <a class= "exercise-cards" id="card1"href="exercicios1.html">1° ao 4° ano</a>
             
             
-                    <a class= "exercise-bottons" href="#">5° ao 9° ano</a>
+                    <a class= "exercise-cards" id="card2" href="#">5° ao 9° ano</a>
             
             
-                    <a class= "exercise-bottons" href="#">1° ao 3° ano</a>
+                    <a class= "exercise-cards" id="card3"href="#">1° ao 3° ano</a>
             </div>
         </article>
     </main>
