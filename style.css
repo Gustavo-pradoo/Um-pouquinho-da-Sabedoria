@@ -1,31 +1,28 @@
-
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-
-
 /* HEADER/CABEÇALHO */
 
 header {
-    position: relative;
+    background-image: linear-gradient(to bottom, rgb(118, 77, 2), orange);
+    width: 100%;
+    position: fixed;
     z-index: 10;
-    margin: 0px 30px;
+    height: 130px;
     
     
 }
 
-#header-main {
+.header-top {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 78%;
     
-
+    
 }
-
 
 .left-box {
     display: flex;
@@ -80,6 +77,7 @@ ul {
     font-size: 25px;
     color: rgb(0, 78, 147);
     text-shadow: 2px 2px rgb(0, 0, 95);
+    margin-left: 5%;
     
 }
 
@@ -120,7 +118,7 @@ ul {
 /* CONTEÚDO PRINCIPAL/MAIN CONTENT */
 
 body {
-    background-image: url(fishes-background2.jpg);
+    background-image: url("fondo-inconsútil-del-vector-de-la-matemáticas-con-las-fórmulas-los-diagramas-y-ecuaciones-manuscritos-en-un-papel-blanco-145507710.webp");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
